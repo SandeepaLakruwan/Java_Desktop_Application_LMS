@@ -12,7 +12,7 @@ public class MySQL {
     static{
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_system", "root", "Slbh2001@");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_system", "root", "password");
         } catch (Exception e) {
             e.printStackTrace();
         }
